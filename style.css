@@ -10,7 +10,74 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'cairo',sans-serif;
+    font-family: 'Inter', sans-serif;
     box-sizing: border-box;
 }
 
+body{
+    background-color:var(--OffBlack) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.card{
+    background-color: var(--DarkGrey);
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    width: 30%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 30%;
+    height: 25%;
+    border-radius: 50%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 60%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    background-color: var(--Grey);
+    color: var(--White);
+    width: 90%;
+    text-align: center;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover{
+    color: black;
+    background-color: darkgray;
+}
