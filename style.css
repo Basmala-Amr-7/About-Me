@@ -1,21 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
-:root{
---White: hsl(0, 0%, 100%);
---Grey: hsl(0, 0%, 20%);
---DarkGrey: hsl(0, 0%, 12%);
---OffBlack: hsl(0, 0%, 8%);
-}
-
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
 
 body{
-    background-color:var(--OffBlack) ;
+    background:  linear-gradient(rgba(0, 30, 60, 0.45),
+                                 rgba(0, 30, 60, 0.45)),
+        url("./coding high resolution GIF by xponentialdesign.gif")
+        center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +18,7 @@ body{
 }
 
 .card{
-    background-color: var(--DarkGrey);
+    background-color:rgb(10, 10, 49);
     padding: 20px;
     border-radius: 25px;
     display: flex;
@@ -33,6 +27,7 @@ body{
     align-items: center;
     gap: 35px;
     width: 30%;
+    box-shadow: 0 0 15px #00aaff, 0 0 35px rgba(0, 170, 255, 0.6);
 }
 
 .logo{
@@ -44,6 +39,12 @@ body{
     width: 30%;
     height: 25%;
     border-radius: 50%;
+    box-shadow: 0 0 15px #00aaff, 0 0 35px rgba(0, 170, 255, 0.6);
+    transition: 1.2s;
+}
+
+img:hover{
+     transform: scale(1.2);
 }
 
 .text{
@@ -66,8 +67,8 @@ body{
 
 a{
     text-decoration: none;
-    background-color: var(--Grey);
-    color: var(--White);
+    background-color: rgb(9, 9, 92);
+    color: white;
     width: 90%;
     text-align: center;
     height: 35px;
@@ -75,9 +76,10 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 0 15px #00aaff, 0 0 35px rgba(0, 170, 255, 0.6);
 }
 
 a:hover{
     color: black;
-    background-color: darkgray;
+    background-color: rgb(26, 114, 144);
 }
