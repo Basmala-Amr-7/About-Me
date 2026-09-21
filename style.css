@@ -83,3 +83,56 @@ a:hover{
     color: black;
     background-color: rgb(26, 114, 144);
 }
+
+@media (max-width: 768px){
+
+    .card{
+        width: 70%;
+    }
+
+    .logo img{
+        width: 40%;
+        height: auto;
+    }
+
+    .links{
+        width: 80%;
+    }
+
+    a{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    .card{
+        width: 90%;
+        padding: 15px;
+        gap: 25px;
+    }
+
+    .logo img{
+        width: 45%;
+        height: auto;
+    }
+
+    .text h1{
+        font-size: 24px;
+    }
+
+    .text p{
+        font-size: 14px;
+    }
+
+    .links{
+        width: 90%;
+        gap: 20px;
+    }
+
+    a{
+        height: 40px;
+    }
+
+}
